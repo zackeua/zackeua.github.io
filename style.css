@@ -66,6 +66,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
+.project:hover {
+    text-decoration: none;
 }
