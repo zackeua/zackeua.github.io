@@ -6,10 +6,37 @@ body {
     margin: 0px;
 }
 
-h1 {
-    font-size: 2em;
-    margin: 2em 1em;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #F0EAD6;
+    padding: 2em 0;
+}
+
+.profile-image {
+    margin-right: 1em;
+}
+
+.profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
 }
 
 .project-container {
@@ -22,8 +49,8 @@ h1 {
 }
 
 .project-container h2 {
-    font-size: 1.5em;
-    margin-top: 0em;
+    font-size: 2em;
+    margin-top: 1em;
 }
 
 .project-container .projects {
