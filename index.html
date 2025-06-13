@@ -1,65 +1,15 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queens Game</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <div class="profile-image">
-            <img src="https://avatars.githubusercontent.com/u/44670414?v=4" alt="Profile image">
-        </div>
-        <div class="header-text">
-            <h1>Zackeus Personal Website</h1>
-        </div>
-    </header>
-
-    <div class="project-container">
-        <h2>My Projects</h2>
-        <div class="projects">
-
-            <a href="https://github.com/zackeua/AdventOfCode" class="project">
-                <h3>Advent of Code</h3>
-                <p>My repo containing solutions to the days of advent of code I have solved.</p>
-            </a>
-
-            <a href="https://github.com/zackeua/Kattis" class="project">
-                <h3>Kattis problems</h3>
-                <p>Solutions for kattis problems I have solved.</p>
-            </a>
-
-            <a href="https://zackeua.github.io/Sudoku-solver/" class="project">
-                <h3>Sudoku solver</h3>
-                <p>My project of writing a sudoku solver.</p>
-            </a>
-
-            <a href="https://github.com/zackeua/Whitespace" class="project">
-                <h3>Whitespace</h3>
-                <p>My implementation of the Whitespace programming language.</p>
-            </a>
-
-            <a href="https://github.com/zackeua/Brainfuck" class="project">
-                <h3>Brainfuck</h3>
-                <p>My implementation of Brainfuck interpreters in various languages.</p>
-            </a>
-
-            <a href="https://github.com/zackeua/GameOfLife" class="project">
-                <h3>Game of life</h3>
-                <p>My implementations of game of life in a couple languages.</p>
-            </a>
-
-            <a href="https://github.com/zackeua/Project-in-scientific-computing_Andrea_Zackeus_Mohammed"
-                class="project">
-                <h3>Project in scientific computing</h3>
-                <p>In this project my team investigated higher order FDM and FEM methods for solving the advection
-                    eqation in 1D.</p>
-            </a>
-
-        </div>
-    </div>
+    <h1>Queens Game</h1>
+    <div id="chessboard"></div>
+    <button onclick="resetGame()">Reset Game</button>
+    <script src="script.js"></script>
 </body>
-
 </html>
