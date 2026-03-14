@@ -4,6 +4,7 @@
 --text: #222;
 --card: #ffffff;
 --border: #ddd;
+--text-secondary: #555;
 
 }
 
@@ -13,7 +14,7 @@
 --text: #e5e5e5;
 --card: #1c1c1c;
 --border: #333;
-
+--text-secondary: #bbb;
 }
 
 body {
@@ -148,3 +149,32 @@ padding:30px;
 opacity:0.7;
 
 }
+
+
+.project-meta {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.language {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary); /* adapts to dark mode */
+}
+
+.lang-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background: gray; /* fallback */
+}
+
+/* language colors */
+
+.language.python .lang-dot { background:#3572A5; color:white; }
+.language.cpp .lang-dot { background:#f34b7d; color:white; }
+.language.java .lang-dot { background:#b07219; color:white; }
+.language.javascript .lang-dot { background:#f1e05a; color:black; }
+.language.c .lang-dot { background:#555; color:white; }
