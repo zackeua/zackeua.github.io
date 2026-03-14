@@ -1,77 +1,84 @@
 <!doctype html>
 <html>
-
 <head>
-    <title>Zackeus Personal Website</title>
+    <meta charset="UTF-8">
+    <title>Zackeus</title>
+
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
 </head>
 
 <body>
+    <header>
+        <div class="header-content">
+            <img class="avatar" src="https://avatars.githubusercontent.com/u/44670414?v=4">
 
-<header>
-    <div class="profile-image">
-        <img src="https://avatars.githubusercontent.com/u/44670414?v=4" alt="Profile image">
-    </div>
+            <div>
+                <h1>Zackeus</h1>
+                <p class="subtitle">
+                    Programming • Algorithms • Language Experiments
+                </p>
+                <div class="links">
+                    <a href="https://github.com/zackeua">GitHub</a>
+                    <a href="https://www.linkedin.com/in/zackeus/">LinkedIn</a>
+                </div>
+            </div>
+            <button id="dark-toggle">🌙</button>
+        </div>
+    </header>
 
-    <div class="header-text">
-        <h1>Zackeus</h1>
-        <p class="subtitle">Programmer • Problem Solver • Computer Science</p>
-    </div>
-</header>
+    <main>
 
+        <section class="about">
+            <p>
+                I enjoy solving algorithmic problems and exploring programming languages.
+                Most of my projects are small experiments or competitive programming solutions.
+            </p>
 
-<section class="bio">
-    <p>
-        Hi! I'm Zackeus. I enjoy solving algorithmic problems and building small programming
-        projects. Many of my repositories contain solutions to competitive programming
-        problems and experiments with programming languages.
-    </p>
-</section>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <div class="projects">
+                <a href="https://github.com/zackeua/AdventOfCode" class="project">
+                    <h3>Advent of Code</h3>
+                    <p>Solutions to Advent of Code challenges.</p>
+                </a>
 
-
-<div class="project-container">
-    <h2>Projects</h2>
-
-    <div class="projects">
-
-        <a href="https://github.com/zackeua/AdventOfCode" class="project">
-            <h3>Advent of Code</h3>
-            <p>Solutions to Advent of Code problems.</p>
-        </a>
-
-        <a href="https://github.com/zackeua/Kattis" class="project">
-            <h3>Kattis Problems</h3>
-            <p>Competitive programming solutions.</p>
-        </a>
-
-        <a href="https://zackeua.github.io/Sudoku-solver/" class="project">
-            <h3>Sudoku Solver</h3>
-            <p>A program that solves sudoku puzzles.</p>
-        </a>
-
-        <a href="https://github.com/zackeua/Whitespace" class="project">
-            <h3>Whitespace Interpreter</h3>
-            <p>An implementation of the Whitespace language.</p>
-        </a>
-
-        <a href="https://github.com/zackeua/Brainfuck" class="project">
-            <h3>Brainfuck Interpreter</h3>
-            <p>Brainfuck interpreters written in several languages.</p>
-        </a>
-
-        <a href="https://github.com/zackeua/GameOfLife" class="project">
-            <h3>Game of Life</h3>
-            <p>Multiple implementations of Conway's Game of Life.</p>
-        </a>
-
-    </div>
-</div>
+                <a href="https://github.com/zackeua/Kattis" class="project">
+                    <h3>Kattis</h3>
+                    <p>Competitive programming solutions.</p>
+                </a>
 
 
-<footer>
-    <a href="https://github.com/zackeua">GitHub</a> | <a href="https://linkedin.com/in/zackeus">LinkedIn</a>
+                <a href="https://zackeua.github.io/Sudoku-solver/" class="project">
+                    <h3>Sudoku Solver</h3>
+                    <p>A program that solves sudoku puzzles.</p>
+                </a>
 
-</footer>
+                <a href="https://github.com/zackeua/Whitespace" class="project">
+                    <h3>Whitespace Interpreter</h3>
+                    <p>An implementation of the Whitespace programming language.</p>
+                </a>
+
+                <a href="https://github.com/zackeua/Brainfuck" class="project">
+                    <h3>Brainfuck Interpreter</h3>
+                    <p>Brainfuck interpreters in multiple languages.</p>
+                </a>
+
+                <a href="https://github.com/zackeua/GameOfLife" class="project">
+                    <h3>Game of Life</h3>
+                    <p>Implementations of Conway's Game of Life.</p>
+                </a>
+
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>© Zackeus</p>
+    </footer>
 
 </body>
 </html>
