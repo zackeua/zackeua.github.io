@@ -199,3 +199,4 @@ opacity:0.7;
 .language.java .lang-dot { background:#b07219; color:white; }
 .language.javascript .lang-dot { background:#f1e05a; color:black; }
 .language.c .lang-dot { background:#555; color:white; }
+.language.rust .lang-dot { background:#dea584; color:black; }
